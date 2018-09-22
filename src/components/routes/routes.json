@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Accounts",
+        "path": "/accounts"
+    },
+    {
+        "name":"Transactions",
+        "path": "/transactions"
+    },
+    {
+        "name": "Peers",
+        "path": "/peers"
+    },
+    {
+        "name": "Home",
+        "path": "/"
+    },
+    {
+        "name": "Blocks",
+        "path":"/blocks"
+    }
+]

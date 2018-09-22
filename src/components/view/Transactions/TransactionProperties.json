@@ -1,0 +1,11 @@
+[
+    {"name": "From", "value": "from" },
+    {"name": "To", "value": "to" },
+    {"name": "Value", "numeric": true, "value": "value" },
+    {"name": "Fee", "numeric": true, "value": "fee" },
+    {"name": "Date Created", "value": "dateCreated" },
+    {"name": "Data", "value": "data" },
+    {"name": "Sender Public Key", "value": "senderPubKey" },
+    {"name": "Transaction Data Hash", "value": "transactionDataHash" },
+    {"name": "Sender Signature", "value": "senderSignature" }
+]

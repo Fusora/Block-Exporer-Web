@@ -1,0 +1,12 @@
+[
+	{"name": "Index", "value": "index", "numeric": true},
+    {"name": "Tx Count", "value": "transactions"},
+	{"name": "Difficulty", "value": "difficulty"},
+	{"name": "Previous Block Hash", "value": "prevBlockHash"},
+	{"name": "Block Data Hash", "value": "blockDataHash"},
+	{"name": "Mined By", "value": "minedBy"},
+	{"name": "Nonce", "value": "nonce", "numeric": true},
+	{"name": "Date Created", "value": "dateCreated"},
+	{"name": "Block Hash", "value": "blockHash"}
+]
+
