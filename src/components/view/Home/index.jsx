@@ -2,7 +2,7 @@ import React from 'react';
 
 const HomeView = () => (
     <div>
-        <h1>Home View</h1>
+        <h1>Welcome To Fusora-Explorer</h1>
     </div>
 )
 
