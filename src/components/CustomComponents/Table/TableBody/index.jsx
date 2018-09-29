@@ -15,6 +15,7 @@ const bodyStyle = theme => ({
 
 const CustomTableBody = ({ classes, properties, unsorted, contents }) => (
 	<TableBody>
+		{console.log(contents)}
 	        {
 	            unsorted ? 
 	            contents.map((content, key) => {

@@ -14,6 +14,7 @@ const styles = () => ({
 const PendingTransactionsView = ({ classes, pendingTransactions }) => (
 	<div className={classes.body}>
 			<CustomTable title={'Pending Transactions'}>
+			{console.log(pendingTransactions)}
 				<CustomTableHeader contents={TransactionProperties} unsorted />
 				<CustomTableBody properties={TransactionProperties} contents={pendingTransactions} unsorted /> 
 			</CustomTable> 

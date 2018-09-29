@@ -6,6 +6,5 @@
     {"name": "Date Created", "value": "dateCreated" },
     {"name": "Data", "value": "data" },
     {"name": "Sender Public Key", "value": "senderPubKey" },
-    {"name": "Transaction Data Hash", "value": "transactionDataHash" },
-    {"name": "Sender Signature", "value": "senderSignature" }
+    {"name": "Transaction Data Hash", "value": "transactionDataHash" }
 ]
