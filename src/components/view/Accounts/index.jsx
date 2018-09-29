@@ -31,7 +31,8 @@ class AccountsViewClass extends Component {
 
 	_makeAsyncRequest = async () => {
 		const request = await fetch('https://fusora.herokuapp.com/balances');
-		const accounts = await request.json();
+		const pendingAccounts = await request.json();
+		const accounts = pendingAccounts.pendingBalances;
 		Object.keys(accounts).forEach(account => {
 			let hasAccount = this.state.accounts.filter(a => a.address === account);
 			if (hasAccount.length > 0) {
